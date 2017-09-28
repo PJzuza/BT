@@ -54,7 +54,7 @@ end )
 
 Hooks:Add("MenuManagerBuildCustomMenus", "AddBulletTrailOptionsBuild", function(menu_manager, nodes)
 	nodes[AddBulletTrail.Main_Options_Menu] = MenuHelper:BuildMenu(AddBulletTrail.Main_Options_Menu)
-	MenuHelper:AddMenuItem(MenuHelper.menus.lua_mod_options_menu, AddBulletTrail.Main_Options_Menu, "AddBulletTrail_menu_title", "AddBulletTrail_menu_desc")
+	MenuHelper:AddMenuItem(nodes["blt_options"],AddBulletTrail.Main_Options_Menu, "AddBulletTrail_menu_title", "AddBulletTrail_menu_desc")
 end)
 
 Hooks:Add("MenuManagerPopulateCustomMenus", "AddBulletTrailOptionsPopulate", function(...)

@@ -3,6 +3,7 @@
 	"author" : "Dr_Newbie",
 	"contact" : " ",
 	"version" : "1",
+	"blt_version" : 2,
 	"priority" : 1,
 	"hooks" : [
 		{"hook_id":"lib/managers/localizationmanager", "script_path":"lua/localizationmanager.lua"},
